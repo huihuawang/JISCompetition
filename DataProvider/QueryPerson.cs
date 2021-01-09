@@ -4,9 +4,9 @@ using System.Data;
 
 namespace DataProvider
 {
-    public class QuaryPerson: QuaryBase<Person>
+    public class QueryPerson: QueryBase<Person>
     {
-        public QuaryPerson() 
+        public QueryPerson() 
             : base(()=>new MapperPerson())
         {
         }

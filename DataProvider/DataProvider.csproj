@@ -46,8 +46,8 @@
     <Compile Include="MapperBase.cs" />
     <Compile Include="MapperPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuaryBase.cs" />
-    <Compile Include="QuaryPerson.cs" />
+    <Compile Include="QueryBase.cs" />
+    <Compile Include="QueryPerson.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataModels\DataModels.csproj">

@@ -8,13 +8,13 @@ namespace DataProvider
 {
     public delegate MapperBase<T> MapperFactory<T>();
 
-    public abstract class QuaryBase<T>
+    public abstract class QueryBase<T>
     {
         readonly string connectionString;
         readonly MapperFactory<T> mapperFactory;
         //private static string m_connectionString = @"Data Source=YOUR_DB_HERE;Initial Catalog=Test;Integrated Security=True";
 
-        protected QuaryBase(MapperFactory<T> mapperFactory)
+        protected QueryBase(MapperFactory<T> mapperFactory)
         {
             if (mapperFactory == null)
                 throw new ArgumentNullException(nameof(mapperFactory));

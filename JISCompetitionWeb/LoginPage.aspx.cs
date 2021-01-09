@@ -14,7 +14,7 @@ namespace JISCompetition
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            QuaryPerson query = new QuaryPerson();
+            QueryPerson query = new QueryPerson();
             Collection<Person> test = query.GetPersons();
         }
     }
