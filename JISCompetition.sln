@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JISCompetitionWeb", "JISCompetitionWeb\JISCompetitionWeb.csproj", "{73260D48-E4EF-469B-85A8-340852AAC545}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBSQL", "DBSQL", "{242AFDBC-279E-4EAE-B8D3-6EDFEB89DB3C}"
+	ProjectSection(SolutionItems) = preProject
+		db.sql = db.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{5AA20286-5F27-4DA2-A35C-8C9981B19545}"
 EndProject
